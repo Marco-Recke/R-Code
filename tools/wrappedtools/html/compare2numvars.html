@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Comparison for columns of numbers for 2 groups</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for compare2numvars {wrappedtools}"><tr><td>compare2numvars {wrappedtools}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Comparison for columns of numbers for 2 groups</h2>
+
+<h3>Description</h3>
+
+<p>Comparison for columns of numbers for 2 groups
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+compare2numvars(
+  data,
+  testvars,
+  groupvar,
+  gaussian,
+  round_p = 3,
+  round_desc = 2,
+  range = F,
+  rangesep = " ",
+  pretext = F,
+  mark = F,
+  n = F,
+  .n = F
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data</code></td>
+<td>
+<p>name of dataset (tibble/data.frame)to analyze.</p>
+</td></tr>
+<tr valign="top"><td><code>testvars</code></td>
+<td>
+<p>vector of column names.</p>
+</td></tr>
+<tr valign="top"><td><code>groupvar</code></td>
+<td>
+<p>name of grouping variable, has to translate to 2 groups.</p>
+</td></tr>
+<tr valign="top"><td><code>gaussian</code></td>
+<td>
+<p>logical specifying normal or ordinal values.</p>
+</td></tr>
+<tr valign="top"><td><code>round_p</code></td>
+<td>
+<p>level for rounding p-value</p>
+</td></tr>
+<tr valign="top"><td><code>round_desc</code></td>
+<td>
+<p>number of significant digits for rounding of descriptive stats</p>
+</td></tr>
+<tr valign="top"><td><code>range</code></td>
+<td>
+<p>include min/max?
+qparam rangesep test between statistics and range or other elements</p>
+</td></tr>
+<tr valign="top"><td><code>pretext</code></td>
+<td>
+<p>for function formatP</p>
+</td></tr>
+<tr valign="top"><td><code>mark</code></td>
+<td>
+<p>for function formatP</p>
+</td></tr>
+<tr valign="top"><td><code>n</code></td>
+<td>
+<p>create columns for n per group?</p>
+</td></tr>
+<tr valign="top"><td><code>.n</code></td>
+<td>
+<p>add n to descriptive statistics?</p>
+</td></tr>
+</table>
+
+<hr /><div style="text-align: center;">[Package <em>wrappedtools</em> version 0.4.03 <a href="00Index.html">Index</a>]</div>
+</body></html>

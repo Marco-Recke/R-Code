@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Compute mean and sd and put together with the +- symbol.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for meansd {wrappedtools}"><tr><td>meansd {wrappedtools}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Compute mean and sd and put together with the +- symbol.</h2>
+
+<h3>Description</h3>
+
+<p>Compute mean and sd and put together with the +- symbol.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+meansd(
+  x,
+  roundDig = 2,
+  drop0 = F,
+  groupvar = NULL,
+  range = F,
+  rangesep = "ARRR",
+  .n = F,
+  .german = F
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>Data for computation.</p>
+</td></tr>
+<tr valign="top"><td><code>roundDig</code></td>
+<td>
+<p>Number of relevant digits for roundR.</p>
+</td></tr>
+<tr valign="top"><td><code>drop0</code></td>
+<td>
+<p>Should trailing zeros be dropped?</p>
+</td></tr>
+<tr valign="top"><td><code>groupvar</code></td>
+<td>
+<p>Optional grouping variable for subgroups.</p>
+</td></tr>
+<tr valign="top"><td><code>range</code></td>
+<td>
+<p>Should min and max be included in output?</p>
+</td></tr>
+<tr valign="top"><td><code>rangesep</code></td>
+<td>
+<p>How should min/max be separated from mean+-sd?</p>
+</td></tr>
+<tr valign="top"><td><code>.n</code></td>
+<td>
+<p>Should n be included in output?</p>
+</td></tr>
+<tr valign="top"><td><code>.german</code></td>
+<td>
+<p>logical, should &quot;.&quot; and &quot;,&quot; be used as bigmark and decimal?</p>
+</td></tr>
+</table>
+
+
+<h3>Examples</h3>
+
+<pre>
+# basic usage of meansd
+## Not run: 
+meansd(x=mtcars$wt)
+
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>wrappedtools</em> version 0.4.03 <a href="00Index.html">Index</a>]</div>
+</body></html>

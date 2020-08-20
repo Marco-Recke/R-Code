@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Print graphical representation of a correlation matrix.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for ggcormat {wrappedtools}"><tr><td>ggcormat {wrappedtools}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Print graphical representation of a correlation matrix.</h2>
+
+<h3>Description</h3>
+
+<p>Print graphical representation of a correlation matrix.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+ggcormat(
+  cor_mat,
+  method = "Correlation",
+  title = "",
+  maxpoint = 2.1,
+  textsize = 5,
+  axistextsize = 2,
+  titlesize = 3,
+  breaklabels = NULL,
+  lower_only = T
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>cor_mat</code></td>
+<td>
+<p>correlation matrix as produced by cor.</p>
+</td></tr>
+<tr valign="top"><td><code>method</code></td>
+<td>
+<p>text specifying type of correlation.</p>
+</td></tr>
+<tr valign="top"><td><code>title</code></td>
+<td>
+<p>plottitle.</p>
+</td></tr>
+<tr valign="top"><td><code>maxpoint</code></td>
+<td>
+<p>maximum for scale_size_manual, may need adjustment depending on plotsize.</p>
+</td></tr>
+<tr valign="top"><td><code>textsize</code></td>
+<td>
+<p>for theme text.</p>
+</td></tr>
+<tr valign="top"><td><code>axistextsize</code></td>
+<td>
+<p>relativ text size for axes.</p>
+</td></tr>
+<tr valign="top"><td><code>titlesize</code></td>
+<td>
+<p>as you already guessed, relative text size for title.</p>
+</td></tr>
+<tr valign="top"><td><code>lower_only</code></td>
+<td>
+<p>should only lower triangle be plotted?</p>
+</td></tr>
+<tr valign="top"><td><code>breaklables</code></td>
+<td>
+<p>currently not used, intended for str_wrap.</p>
+</td></tr>
+</table>
+
+<hr /><div style="text-align: center;">[Package <em>wrappedtools</em> version 0.4.03 <a href="00Index.html">Index</a>]</div>
+</body></html>

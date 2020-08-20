@@ -1,0 +1,22 @@
+Package: wrappedtools
+Type: Package
+Title: Usefull wrappers around commonly used functions
+Version: 0.4.03
+Date: 2020-06-09
+Authors@R: 
+    person(given = "Andreas",
+           family = "Busjahn",
+           role = c("cre", "aut"),
+           email = "andreas@busjahn.net",
+           comment = c(ORCID = "0000-0001-9650-6919"))
+Maintainer: Andreas Busjahn <andreas@busjahn.net>
+Description: Functions were mainly written for my own daily work or teaching, but may be of use to others as well.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: boot, knitr, furrr, tidyverse,ggalluvial, magrittr
+Depends: tidyverse, magrittr
+Exports: magrittr,tidyverse
+RoxygenNote: 7.1.1
+Author: Andreas Busjahn [cre, aut] (<https://orcid.org/0000-0001-9650-6919>)
+Built: R 4.0.2; ; 2020-08-13 17:42:18 UTC; windows

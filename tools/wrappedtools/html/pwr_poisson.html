@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Computation of sample size for traits with Poisson...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for pwr_poisson {wrappedtools}"><tr><td>pwr_poisson {wrappedtools}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Computation of sample size for traits with Poisson distribution</h2>
+
+<h3>Description</h3>
+
+<p>Computation of sample size for traits with Poisson distribution
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+pwr_poisson(
+  .lambda_ctr,
+  .lambda_ctr_range = 1,
+  .lambda_delta,
+  .lambda_delta_range = 1,
+  .lambda_step = 0.5,
+  .nrepl = 10^3,
+  .n_min = 4,
+  .label_ctr = "Lambda control",
+  .label_verum = "Lambda verum"
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>.lambda_ctr</code></td>
+<td>
+<p>expected count in control group.</p>
+</td></tr>
+<tr valign="top"><td><code>.lambda_delta</code></td>
+<td>
+<p>Expected difference on counts for treatment.</p>
+</td></tr>
+<tr valign="top"><td><code>.lambda_delta_range</code></td>
+<td>
+<p>Range for optimistic/pessimistic estimation for treatment. Within range, lambda is increased stepwise.</p>
+</td></tr>
+<tr valign="top"><td><code>.lambda_step</code></td>
+<td>
+<p>defines stepwise increase.</p>
+</td></tr>
+<tr valign="top"><td><code>.nrepl</code></td>
+<td>
+<p>Number of replications for simulation.</p>
+</td></tr>
+<tr valign="top"><td><code>.n_min</code></td>
+<td>
+<p>Smallest sample size to start with.</p>
+</td></tr>
+<tr valign="top"><td><code>.label_ctr</code></td>
+<td>
+<p>Label for plot.</p>
+</td></tr>
+<tr valign="top"><td><code>.label_verum</code></td>
+<td>
+<p>Label for plot.</p>
+</td></tr>
+<tr valign="top"><td><code>.lamba_ctr_range</code></td>
+<td>
+<p>Range for optimistic/pessimistic estimation for controls, resulting in three estimations.</p>
+</td></tr>
+</table>
+
+<hr /><div style="text-align: center;">[Package <em>wrappedtools</em> version 0.4.03 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Find numeric index and names of column name patterns</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for FindVars {wrappedtools}"><tr><td>FindVars {wrappedtools}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Find numeric index and names of column name patterns</h2>
+
+<h3>Description</h3>
+
+<p><code>FindVars</code> looks up columnames (by default for data-frame rawdata)
+based on parts of names, using regular expressions.
+exlusion rules may be specified as well.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+FindVars(
+  varnames,
+  allnames = colnames(rawdata),
+  exact = F,
+  exclude = NA,
+  casesensitive = T,
+  fixed = F
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>varnames</code></td>
+<td>
+<p>Vector of pattern to look for.</p>
+</td></tr>
+<tr valign="top"><td><code>allnames</code></td>
+<td>
+<p>Vector of values to detect pattern in;
+by default, colnames(rawdata).</p>
+</td></tr>
+<tr valign="top"><td><code>exact</code></td>
+<td>
+<p>Partial matching or exact only (adding ^ and $)?</p>
+</td></tr>
+<tr valign="top"><td><code>exclude</code></td>
+<td>
+<p>Vector of pattern to exclude from found names.</p>
+</td></tr>
+<tr valign="top"><td><code>casesensitive</code></td>
+<td>
+<p>Logical if case is respected in matching (default FALSE: a&lt;&gt;A)</p>
+</td></tr>
+<tr valign="top"><td><code>fixed</code></td>
+<td>
+<p>Logical, treat pattern as regex?</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>A list with index, names, backticked names, and symbols
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+FindVars(varnames = c('^c','g'),allnames = colnames(mtcars))
+FindVars(varnames = c('^c','g'),allnames = colnames(mtcars),exclude='r')
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>wrappedtools</em> version 0.4.03 <a href="00Index.html">Index</a>]</div>
+</body></html>

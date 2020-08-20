@@ -1,0 +1,36 @@
+FindVars                Find numeric index and names of column name
+                        patterns
+alluvialplot            Create alluvialplot.
+bt                      Add backticks to names or remove them
+cat_desc_stats          Compute absolute and relative frequencies.
+cn                      Shortcut for colnames()
+compare2numvars         Comparison for columns of numbers for 2 groups
+compare2qualvars        Comparison for columns of factors for 2 groups
+compare2qualvars_f      Comparison for columns of factors for 2 groups
+                        with furrr
+cortestR                correlation matrix with p-values based on
+                        cor.test
+formatP                 Re-format p-values
+ggcormat                Print graphical representation of a correlation
+                        matrix.
+glmCI                   Computation and formatting of CIs for glm
+ksnormal                Convinience function around ks.test, testing
+                        against Normal distribution
+markSign                Convert significance levels to symbols
+meansd                  Compute mean and sd and put together with the
+                        +- symbol.
+meanse                  Compute mean and se and put together with the
+                        +- symbol.
+median_quart            Compute median and quartiles and put together.
+pdf_kable               Enhanced kable with latex
+print_kable             Enhanced kable with definable number of
+                        rows/columns for splitting into subtables
+pwr_ord                 Computation of sample size for traits with
+                        ordinal distribution
+pwr_poisson             Computation of sample size for traits with
+                        Poisson distribution
+roundR                  Automatic rounding to a reasonable length,
+                        based on largest number
+t_var_test              Two independent sample t-test with decision for
+                        var.equal based on var.test
+tab.search              Search within data.frame or tibble

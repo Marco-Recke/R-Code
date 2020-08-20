@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Search within data.frame or tibble</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for tab.search {wrappedtools}"><tr><td>tab.search {wrappedtools}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Search within data.frame or tibble</h2>
+
+<h3>Description</h3>
+
+<p><code>tab.search</code> searches for pattern within a data-frame or tibble,
+returning column(s) and row(s)
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+tab.search(searchdata = rawdata, pattern, find.all = T, names.only = F)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>searchdata</code></td>
+<td>
+<p>table to search in, predefined as rawdata</p>
+</td></tr>
+<tr valign="top"><td><code>pattern</code></td>
+<td>
+<p>regex, for exact matches add ^findme$</p>
+</td></tr>
+<tr valign="top"><td><code>find.all</code></td>
+<td>
+<p>return all row indices or only 1st per column,default=TRUE</p>
+</td></tr>
+<tr valign="top"><td><code>names.only</code></td>
+<td>
+<p>return only vector of colnames rather than list with names and rows, default=FALSE</p>
+</td></tr>
+</table>
+
+<hr /><div style="text-align: center;">[Package <em>wrappedtools</em> version 0.4.03 <a href="00Index.html">Index</a>]</div>
+</body></html>

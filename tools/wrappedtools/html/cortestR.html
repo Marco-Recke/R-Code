@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: correlation matrix with p-values based on cor.test</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for cortestR {wrappedtools}"><tr><td>cortestR {wrappedtools}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>correlation matrix with p-values based on cor.test</h2>
+
+<h3>Description</h3>
+
+<p><code>cortestR</code> returns a data frame with coefficient,p-values,
+and significance symbols.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+cortestR(
+  cordata,
+  method = "pearson",
+  digits = 3,
+  digits_p = 3,
+  sign = "symbol"
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>cordata</code></td>
+<td>
+<p>data frame or matrix with rawdata.</p>
+</td></tr>
+<tr valign="top"><td><code>method</code></td>
+<td>
+<p>as in cor.test.</p>
+</td></tr>
+<tr valign="top"><td><code>digits</code></td>
+<td>
+<p>rounding level for estimate.</p>
+</td></tr>
+<tr valign="top"><td><code>digits_p</code></td>
+<td>
+<p>rounding level for p value.</p>
+</td></tr>
+<tr valign="top"><td><code>sign</code></td>
+<td>
+<p>if 'symbol', add significance indicator.</p>
+</td></tr>
+</table>
+
+<hr /><div style="text-align: center;">[Package <em>wrappedtools</em> version 0.4.03 <a href="00Index.html">Index</a>]</div>
+</body></html>

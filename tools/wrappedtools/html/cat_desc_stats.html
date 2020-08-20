@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Compute absolute and relative frequencies.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for cat_desc_stats {wrappedtools}"><tr><td>cat_desc_stats {wrappedtools}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Compute absolute and relative frequencies.</h2>
+
+<h3>Description</h3>
+
+<p>Compute absolute and relative frequencies.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+cat_desc_stats(
+  quelle,
+  trenner = "ARRR",
+  return_level = TRUE,
+  ndigit = 0,
+  groupvar = NULL,
+  singleline = FALSE,
+  percent = TRUE,
+  prettynum = FALSE,
+  .german = FALSE
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>quelle</code></td>
+<td>
+<p>Data for computation.</p>
+</td></tr>
+<tr valign="top"><td><code>trenner</code></td>
+<td>
+<p>delimiter between results per level. ARRR is my placeholder for later replacement with ^p (newline) in Word</p>
+</td></tr>
+<tr valign="top"><td><code>return_level</code></td>
+<td>
+<p>Should levels be reported?</p>
+</td></tr>
+<tr valign="top"><td><code>ndigit</code></td>
+<td>
+<p>Digits for rounding of relative frequencies.</p>
+</td></tr>
+<tr valign="top"><td><code>percent</code></td>
+<td>
+<p>logical, add percent-symbol after relative frequencies?</p>
+</td></tr>
+<tr valign="top"><td><code>prettynum</code></td>
+<td>
+<p>logical, apply prettyNum to results?</p>
+</td></tr>
+<tr valign="top"><td><code>.german</code></td>
+<td>
+<p>logical, should &quot;.&quot; and &quot;,&quot; be used as bigmark and decimal? Sets prettynum to TRUE</p>
+</td></tr>
+</table>
+
+<hr /><div style="text-align: center;">[Package <em>wrappedtools</em> version 0.4.03 <a href="00Index.html">Index</a>]</div>
+</body></html>
