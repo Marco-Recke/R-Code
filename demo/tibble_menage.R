@@ -19,9 +19,3 @@ menage %>% slice(1:50) %>% pull(pfefferstreuer)
 
 menage <- tibble(salzstreuer=rep('salt crystal',times=n_elements),
                  pfefferstreuer=rep('pepper corn',times=n_elements))
-
-# slice Auswahl einer oder mehrer nzelne Zeilen /auswählen (alle spalten)
-# pull gibt den Inhalt einer Spalte (Vektor)
-# select: Auswahl einer oder mehrer Spalten/ die Spalte als Spaltenstruktur (tibble)
-# [[]] pull
-# [] select
