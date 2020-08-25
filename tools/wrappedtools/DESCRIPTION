@@ -1,8 +1,8 @@
 Package: wrappedtools
 Type: Package
 Title: Usefull wrappers around commonly used functions
-Version: 0.4.03
-Date: 2020-06-09
+Version: 0.4.06
+Date: 2020-08-25
 Authors@R: 
     person(given = "Andreas",
            family = "Busjahn",
@@ -19,4 +19,4 @@ Depends: tidyverse, magrittr
 Exports: magrittr,tidyverse
 RoxygenNote: 7.1.1
 Author: Andreas Busjahn [cre, aut] (<https://orcid.org/0000-0001-9650-6919>)
-Built: R 4.0.2; ; 2020-08-13 17:42:18 UTC; windows
+Built: R 4.0.2; ; 2020-08-25 10:33:40 UTC; windows
